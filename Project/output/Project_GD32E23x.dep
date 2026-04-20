@@ -1,765 +1,0 @@
-Dependencies for Project 'Project', Target 'GD32E23x': (DO NOT MODIFY !)
-CompilerVersion: 6220000::V6.22::ARMCLANG
-F (.\CMSIS\GD\GD32E23x\Source\ARM\startup_gd32e23x.s)(0x69C4F046)(--cpu=Cortex-M23 -g --pd "__MICROLIB SETA 1" --diag_suppress=A1950W-I.\RTE\_GD32E23x-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include--pd "__UVISION_VERSION SETA 541"--pd "GD32E23x SETA 1"--pd "_RTE_ SETA 1"--list .\list\startup_gd32e23x.lst--xref -o .\output\startup_gd32e23x.o--depend .\output\startup_gd32e23x.d)
-F (.\CMSIS\GD\GD32E23x\Source\system_gd32e23x.c)(0x69C4A120)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/system_gd32e23x.o -MMD)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-F (.\Lib\src\gd32e23x_adc.c)(0x698306C8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/gd32e23x_adc.o -MMD)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-F (.\Lib\src\gd32e23x_cmp.c)(0x698306C8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/gd32e23x_cmp.o -MMD)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-F (.\Lib\src\gd32e23x_crc.c)(0x698306C8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/gd32e23x_crc.o -MMD)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-F (.\Lib\src\gd32e23x_dbg.c)(0x698306C8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/gd32e23x_dbg.o -MMD)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-F (.\Lib\src\gd32e23x_dma.c)(0x698306C8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/gd32e23x_dma.o -MMD)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-F (.\Lib\src\gd32e23x_exti.c)(0x698306C8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/gd32e23x_exti.o -MMD)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-F (.\Lib\src\gd32e23x_fmc.c)(0x698306C8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/gd32e23x_fmc.o -MMD)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-F (.\Lib\src\gd32e23x_fwdgt.c)(0x698306C8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/gd32e23x_fwdgt.o -MMD)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-F (.\Lib\src\gd32e23x_gpio.c)(0x698306C8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/gd32e23x_gpio.o -MMD)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-F (.\Lib\src\gd32e23x_i2c.c)(0x698306C8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/gd32e23x_i2c.o -MMD)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-F (.\Lib\src\gd32e23x_misc.c)(0x698306C8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/gd32e23x_misc.o -MMD)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-F (.\Lib\src\gd32e23x_pmu.c)(0x698306C8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/gd32e23x_pmu.o -MMD)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-F (.\Lib\src\gd32e23x_rcu.c)(0x698306C8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/gd32e23x_rcu.o -MMD)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-F (.\Lib\src\gd32e23x_rtc.c)(0x698306C8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/gd32e23x_rtc.o -MMD)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-F (.\Lib\src\gd32e23x_spi.c)(0x698306C8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/gd32e23x_spi.o -MMD)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-F (.\Lib\src\gd32e23x_syscfg.c)(0x698306C8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/gd32e23x_syscfg.o -MMD)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-F (.\Lib\src\gd32e23x_timer.c)(0x698306C8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/gd32e23x_timer.o -MMD)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-F (.\Lib\src\gd32e23x_usart.c)(0x698306C8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/gd32e23x_usart.o -MMD)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-F (.\Lib\src\gd32e23x_wwdgt.c)(0x698306C8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/gd32e23x_wwdgt.o -MMD)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-F (.\Basic\SysTick\systick.c)(0x69E5B543)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/systick.o -MMD)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-I (Basic\SysTick\systick.h)(0x69E5B453)
-F (.\Basic\RCU\RCU.c)(0x69C49735)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/rcu.o -MMD)
-I (Basic\RCU\RCU.h)(0x69C49735)
-I (User\main\main.h)(0x69E5D4C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-I (Basic\SysTick\systick.h)(0x69E5B453)
-I (Basic\Hardware_SPI\Hardware_SPI.h)(0x69C5F91B)
-I (Hardware\TFT_LCD\TFT_LCD.h)(0x69DCEB34)
-I (Basic\Software_IIC\Software_IIC.h)(0x69E5B468)
-I (Hardware\NorFlash_25Q\NorFlash_25Q.h)(0x69C5DED4)
-I (Hardware\TMP112\TMP112.h)(0x69BA37E2)
-F (.\Basic\Hardware_SPI\Hardware_SPI.c)(0x69C61224)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/hardware_spi.o -MMD)
-I (Basic\Hardware_SPI\Hardware_SPI.h)(0x69C5F91B)
-I (User\main\main.h)(0x69E5D4C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-I (Basic\SysTick\systick.h)(0x69E5B453)
-I (Basic\RCU\RCU.h)(0x69C49735)
-I (Hardware\TFT_LCD\TFT_LCD.h)(0x69DCEB34)
-I (Basic\Software_IIC\Software_IIC.h)(0x69E5B468)
-I (Hardware\NorFlash_25Q\NorFlash_25Q.h)(0x69C5DED4)
-I (Hardware\TMP112\TMP112.h)(0x69BA37E2)
-F (.\Basic\Software_IIC\Software_IIC.C)(0x69E5B3E8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/software_iic.o -MMD)
-I (Basic\Software_IIC\Software_IIC.h)(0x69E5B468)
-I (User\main\main.h)(0x69E5D4C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-I (Basic\SysTick\systick.h)(0x69E5B453)
-I (Basic\RCU\RCU.h)(0x69C49735)
-I (Basic\Hardware_SPI\Hardware_SPI.h)(0x69C5F91B)
-I (Hardware\TFT_LCD\TFT_LCD.h)(0x69DCEB34)
-I (Hardware\NorFlash_25Q\NorFlash_25Q.h)(0x69C5DED4)
-I (Hardware\TMP112\TMP112.h)(0x69BA37E2)
-F (.\Hardware\TFT_LCD\TFT_LCD.c)(0x69C4D8DC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/tft_lcd.o -MMD)
-I (Hardware\TFT_LCD\TFT_LCD.h)(0x69DCEB34)
-I (User\main\main.h)(0x69E5D4C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-I (Basic\SysTick\systick.h)(0x69E5B453)
-I (Basic\RCU\RCU.h)(0x69C49735)
-I (Basic\Hardware_SPI\Hardware_SPI.h)(0x69C5F91B)
-I (Basic\Software_IIC\Software_IIC.h)(0x69E5B468)
-I (Hardware\NorFlash_25Q\NorFlash_25Q.h)(0x69C5DED4)
-I (Hardware\TMP112\TMP112.h)(0x69BA37E2)
-I (Hardware\TFT_LCD\LCD_Font.h)(0x69C91CBA)
-F (.\Hardware\NorFlash_25Q\NorFlash_25Q.c)(0x69C61224)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/norflash_25q.o -MMD)
-I (Hardware\NorFlash_25Q\NorFlash_25Q.h)(0x69C5DED4)
-I (User\main\main.h)(0x69E5D4C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-I (Basic\SysTick\systick.h)(0x69E5B453)
-I (Basic\RCU\RCU.h)(0x69C49735)
-I (Basic\Hardware_SPI\Hardware_SPI.h)(0x69C5F91B)
-I (Hardware\TFT_LCD\TFT_LCD.h)(0x69DCEB34)
-I (Basic\Software_IIC\Software_IIC.h)(0x69E5B468)
-I (Hardware\TMP112\TMP112.h)(0x69BA37E2)
-F (.\Hardware\TMP112\TMP112.c)(0x69C4EA3F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/tmp112.o -MMD)
-I (Hardware\TMP112\TMP112.h)(0x69BA37E2)
-I (User\main\main.h)(0x69E5D4C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-I (Basic\SysTick\systick.h)(0x69E5B453)
-I (Basic\RCU\RCU.h)(0x69C49735)
-I (Basic\Hardware_SPI\Hardware_SPI.h)(0x69C5F91B)
-I (Hardware\TFT_LCD\TFT_LCD.h)(0x69DCEB34)
-I (Basic\Software_IIC\Software_IIC.h)(0x69E5B468)
-I (Hardware\NorFlash_25Q\NorFlash_25Q.h)(0x69C5DED4)
-F (.\User\main\main.c)(0x69E5DC94)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/main.o -MMD)
-I (User\main\main.h)(0x69E5D4C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-I (Basic\SysTick\systick.h)(0x69E5B453)
-I (Basic\RCU\RCU.h)(0x69C49735)
-I (Basic\Hardware_SPI\Hardware_SPI.h)(0x69C5F91B)
-I (Hardware\TFT_LCD\TFT_LCD.h)(0x69DCEB34)
-I (Basic\Software_IIC\Software_IIC.h)(0x69E5B468)
-I (Hardware\NorFlash_25Q\NorFlash_25Q.h)(0x69C5DED4)
-I (Hardware\TMP112\TMP112.h)(0x69BA37E2)
-F (.\User\main\animation_demo.c)(0x69DCEC67)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./CMSIS -I ./CMSIS/GD/GD32E23x/Include -I ./Lib/inc -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/SysTick -I ./User/main -I ./User/int -I ./Basic/RCU -I ./Hardware/TFT_LCD -I ./Lib/SEGGER_RTT_V7.88i -I ./Basic/Hardware_SPI -I ./Basic/Software_IIC -I ./Hardware/NorFlash_25Q -I ./Hardware/TMP112 -I ./Hardware/SW351x-I./RTE/_GD32E23x-IC:/Users/admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32E23x_DFP/2.3.2/Device/Include-D__UVISION_VERSION="541" -DGD32E23x -D_RTE_ -DGD32E230-o ./output/animation_demo.o -MMD)
-I (User\main\main.h)(0x69E5D4C8)
-I (CMSIS\GD\GD32E23x\Include\gd32e23x.h)(0x698306C8)
-I (CMSIS\core_cm23.h)(0x69294311)
-I (CMSIS\GD\GD32E23x\Include\system_gd32e23x.h)(0x69645ED3)
-I (C:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32E23x_DFP\2.3.2\Device\Include\gd32e23x_libopt.h)(0x67AB3AE8)
-I (Lib\inc\gd32e23x_adc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_crc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dbg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_dma.h)(0x698306C8)
-I (Lib\inc\gd32e23x_exti.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fmc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_gpio.h)(0x698306C8)
-I (Lib\inc\gd32e23x_syscfg.h)(0x698306C8)
-I (Lib\inc\gd32e23x_i2c.h)(0x698306C8)
-I (Lib\inc\gd32e23x_fwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_pmu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rcu.h)(0x698306C8)
-I (Lib\inc\gd32e23x_rtc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_spi.h)(0x698306C8)
-I (Lib\inc\gd32e23x_timer.h)(0x698306C8)
-I (Lib\inc\gd32e23x_usart.h)(0x698306C8)
-I (Lib\inc\gd32e23x_wwdgt.h)(0x698306C8)
-I (Lib\inc\gd32e23x_misc.h)(0x698306C8)
-I (Lib\inc\gd32e23x_cmp.h)(0x698306C8)
-I (Basic\SysTick\systick.h)(0x69E5B453)
-I (Basic\RCU\RCU.h)(0x69C49735)
-I (Basic\Hardware_SPI\Hardware_SPI.h)(0x69C5F91B)
-I (Hardware\TFT_LCD\TFT_LCD.h)(0x69DCEB34)
-I (Basic\Software_IIC\Software_IIC.h)(0x69E5B468)
-I (Hardware\NorFlash_25Q\NorFlash_25Q.h)(0x69C5DED4)
-I (Hardware\TMP112\TMP112.h)(0x69BA37E2)

@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include "math.h"
+#include <math.h>
 
 uint8_t TEST_Data[20] = {0xA1,0xA2,0xA3,0xA4,0xA5,0xA6,0xA7,0xA8,0xA9,0xAA,0xB1,0xB2,0xB3,0xB4,0xB5,0xB6,0xB7,0xB8,0xB9,0xBA};
 uint8_t TEST_Data1[1024];
@@ -147,20 +147,18 @@ int main(void)
 	TFT_LCD_Init();
 	/*初始化*/
 	
-	
 	LCD_Display_Color(0,0,240,240,BLACK); //清屏
 	while(1)
 	{
-			switch(app_int)
-	{
-		case 1: 
-			Animation_Demo();
-		break;
-		case 2:	
-			I2C_Scan_Display();
-		break;
+		switch(app_int)
+		{
+			case 1: 
+				Animation_Demo();
+			break;
+			case 2:	
+				I2C_Scan_Display();
+			break;
+		}
 	}
-	}
-
 }
 
