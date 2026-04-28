@@ -157,12 +157,12 @@ GD32E23x外设库文件由GigaDevice Semiconductor Inc.提供。请参考其官�
 ### 开发工具
 
 - [Keil MDK](https://www.keil.com/arm/mdk.asp)
-- [GD32开发工具](https://www.gigadevice.com/
+- [GD32开发工具](https://www.gigadevice.com/)
 
 ## 支持
 
 如有问题和需要支持：
-- 查看[问题页面](https://github.com/yourusername/GD32E230/issues)
+- 查看[问题页面](https://github.com/BA4IHS/GD32E230-LaoWang)
 - 参考GD32官方手册
 
 ## 致谢
